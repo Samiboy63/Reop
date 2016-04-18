@@ -1,0 +1,243 @@
+* {
+	margin: 0px; padding: 0px; outline: 0px;
+}
+html {
+	-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+body {
+	width: 100%; font-family: "microsoft yahei",Verdana,Arial,Helvetica,sans-serif; -ms-overflow-x: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+h1 {
+	font-size: 100%; font-weight: normal;
+}
+h2 {
+	font-size: 100%; font-weight: normal;
+}
+h3 {
+	font-size: 100%; font-weight: normal;
+}
+h4 {
+	font-size: 100%; font-weight: normal;
+}
+h5 {
+	font-size: 100%; font-weight: normal;
+}
+h6 {
+	font-size: 100%; font-weight: normal;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+em {
+	font-style: normal;
+}
+i {
+	font-style: normal;
+}
+fieldset {
+	border: currentColor; border-image: none;
+}
+img {
+	border: currentColor; border-image: none;
+}
+input {
+	vertical-align: middle;
+}
+img {
+	vertical-align: middle;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+main {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+summary {
+	display: block;
+}
+[hidden] {
+	display: none;
+}
+template {
+	display: none;
+}
+mark {
+	background: rgb(255, 255, 0);
+}
+address {
+	font-style: normal; font-weight: normal;
+}
+caption {
+	font-style: normal; font-weight: normal;
+}
+cite {
+	font-style: normal; font-weight: normal;
+}
+code {
+	font-style: normal; font-weight: normal;
+}
+dfn {
+	font-style: normal; font-weight: normal;
+}
+em {
+	font-style: normal; font-weight: normal;
+}
+strong {
+	font-style: normal; font-weight: normal;
+}
+th {
+	font-style: normal; font-weight: normal;
+}
+var {
+	font-style: normal; font-weight: normal;
+}
+optgroup {
+	font-style: normal; font-weight: normal;
+}
+a {
+	background: none;
+}
+a:focus {
+	outline: dotted thin;
+}
+a:active {
+	outline: 0px;
+}
+a:hover {
+	outline: 0px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+ins {
+	text-decoration: none;
+}
+button {
+	font-family: inherit; font-size: 100%;
+}
+input {
+	font-family: inherit; font-size: 100%;
+}
+select {
+	font-family: inherit; font-size: 100%;
+}
+textarea {
+	font-family: inherit; font-size: 100%;
+}
+button {
+	border-radius: 0px; -webkit-appearance: none;
+}
+input {
+	border-radius: 0px; -webkit-appearance: none;
+}
+button[disabled] {
+	cursor: default;
+}
+html input[disabled] {
+	cursor: default;
+}
+.clearfix::after {
+	clear: both; display: block; visibility: hidden; content: "";
+}
+.invisible {
+	visibility: hidden;
+}
+.abs-invisible {
+	visibility: hidden; position: absolute;
+}
+.outer-container {
+	overflow: hidden;
+}
+.flex-center {
+	display: flex; justify-content: center; align-items: center; -webkit-box-align: center; -webkit-align-items: center; -webkit-box-pack: center; -webkit-justify-content: center;
+}
+.flex-vertical {
+	flex-direction: column; -webkit-box-orient: vertical;
+}
+.d-msg-alert-box {
+	padding: 20px 10px; border-radius: 4px; transition:0.4s linear; left: 50%; top: 40%; width: 220px; color: rgb(255, 255, 255); font-family: "microsoft yahei"; font-size: 14px; margin-left: -120px; display: table; position: fixed; z-index: 1000; opacity: 1; box-shadow: 0px 0px 2px 2px #000; background-color: rgb(0, 0, 0); -moz-box-shaow: 0 0 2px 2px; -webkit-box-shadow: #000 0 0 2px 2px; -webkit-transition: all linear .4s;
+}
+.d-msg-alert-box .d-inner {
+	text-align: center; line-height: 1.6; vertical-align: middle; display: table-cell;
+}
+.d-alert-hide {
+	opacity: 0;
+}
+.d-msg-confirm-bg {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 1000; background-color: rgba(0, 0, 0, 0.6);
+}
+.d-msg-confirm-box {
+	border-radius: 4px; width: 72%; min-width: 250px; background-color: rgb(255, 255, 255);
+}
+.d-msg-confirm-content {
+	padding: 10px 10px 0px; text-align: center; color: rgb(69, 69, 69); overflow: auto; font-size: 16px; margin-bottom: 10px; min-height: 80px; max-height: 320px;
+}
+.d-msg-confirm-btn {
+	text-align: center; padding-bottom: 20px; font-size: 15px; margin-top: 15px;
+}
+.d-msg-confirm-box button {
+	margin: 0px 8px; border-radius: 4px; border: 0px currentColor; border-image: none; width: 90px; height: 32px; line-height: 32px;
+}
+.d-msg-confirm-box button:hover {
+	opacity: 0.8;
+}
+.d-msg-confirm-cancel {
+	color: rgb(37, 37, 37); background-color: rgb(184, 184, 184);
+}
+.d-msg-confirm-ok {
+	color: rgb(255, 255, 255); background-color: rgb(241, 83, 83);
+}
+.j-m-car {
+	right: 0px; bottom: 0px; display: none; position: fixed; z-index: 1000;
+}
+.j-m-car a {
+	background: url("//img14.360buyimg.com/cms/jfs/t184/80/1363953149/1647/7b927244/53a93e52Nc378feb4.png") no-repeat center / contain; width: 42px; height: 42px; display: block;
+}
+.j-m-car i {
+	border-radius: 7px; top: 0px; width: 24px; height: 14px; text-align: center; right: 0px; color: rgb(255, 255, 255); line-height: 14px; font-size: 12px; display: none; position: absolute; background-color: rgb(228, 57, 60);
+}
+.j-m-car i.shake {
+	animation:shakeSelf 0.8s; -webkit-animation: shakeSelf 0.8s ease;
+}
+.hidden {
+	display: none;
+}
