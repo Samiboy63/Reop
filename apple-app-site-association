@@ -5,9 +5,7 @@
     [
       {
         "appID": "8AXPVS6C36.com.linkedin.universallinktest",
-        "paths" : [
-          "/ultest/*"
-        ]
+        "paths" : ["*"]
       }
     ]
   }
