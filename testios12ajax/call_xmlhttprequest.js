@@ -59,7 +59,8 @@ function handler(type, word) {
     alert("js日志：开始发送ajax请求");
     $.ajax({
            // url: "s?word=" + word
-          url :"test.html"
+          // url :"test.html"
+          url: "http://m.baidu.com/s?word=" + word
            }).done(function(result){
                    alert("js日志：ajax请求成功");
                    // result = result.replace(/m\.baidu\.com/gi, "yq01-paddle-mobile.epc.baidu.com:8081");
