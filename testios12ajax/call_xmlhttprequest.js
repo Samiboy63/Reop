@@ -44,7 +44,7 @@ function handler(type, word) {
     //   }
     //  }
     // }
-    alert("js日志：处理message");
+    alert("[WebKit] jslog：process message");
     //if (type == "submit") {
     //   setTimeout(function() {
     //    if (!done) {
@@ -56,13 +56,13 @@ function handler(type, word) {
     //if (cache[word]) {
     //  onCompletion();
     //} else {
-    alert("js日志：开始发送ajax请求");
+    alert("[WebKit] jslog：startsend ajax request");
     $.ajax({
            // url: "s?word=" + word
           url :"test.html"
           // url: "https://m.baidu.com/s?word=" + word
            }).done(function(result){
-                   alert("js日志：ajax请求成功");
+                   alert("[WebKit] jslog：：ajax success");
                    // result = result.replace(/m\.baidu\.com/gi, "yq01-paddle-mobile.epc.baidu.com:8081");
                    //if (result.indexOf("results") != -1) {
                    //   cache[word] = result;
@@ -73,12 +73,12 @@ function handler(type, word) {
                            //   onCompletion();
                            // alert("failed after completion");
                            });
-    alert("js日志：ajax后面的直接代码也可以执行");
+    alert("[WebKit] jslog：ajax called exec");
     //   }
 }
 
 window.addEventListener("message", function(event){
-                        alert("js日志：接收到message");
+                        alert("[WebKit] jslog：recv message");
                         console.log(event);
                         var type = event.data.type;
                         var word = event.data.word;

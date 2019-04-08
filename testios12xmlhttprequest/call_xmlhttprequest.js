@@ -18,14 +18,14 @@ function testCompletion() {
 }
 
 function handler(type, word) {
-    alert("js日志：处理message");
-    alert("js日志：开始发送ajax请求");
+    alert("[WebKit] jslog：process message");
+    alert("[WebKit] jslog：start send ajax request");
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "/testios12xmlhttprequest/test.html", true);
     xhr.onload = function (e) {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
-          alert("js日志：ajax请求成功");
+          alert("[WebKit] jslog：ajax request success");
           // console.log(xhr.responseText);
         } else {
           // console.error(xhr.statusText);
@@ -34,15 +34,15 @@ function handler(type, word) {
       }
     };
     xhr.onerror = function (e) {
-      alert(" ajax failed" + xhr.statusText);
+      alert(" ajax failed one " + xhr.statusText);
     };
     xhr.send(null);
-    alert("js日志：ajax后面的直接代码也可以执行");
+    alert("[WebKit] jslog：ajax called exec");
 
 }
 
 window.addEventListener("message", function(event){
-                        alert("js日志：接收到message");
+                        alert("[WebKit] jslog：recv message");
                         console.log(event);
                         var type = event.data.type;
                         var word = event.data.word;
