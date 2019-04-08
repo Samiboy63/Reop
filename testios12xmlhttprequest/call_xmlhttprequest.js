@@ -21,7 +21,7 @@ function handler(type, word) {
     alert("js日志：处理message");
     alert("js日志：开始发送ajax请求");
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "/test.html", true);
+    xhr.open("GET", "/testios12xmlhttprequest/test.html", true);
     xhr.onload = function (e) {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
