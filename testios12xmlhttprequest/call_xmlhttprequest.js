@@ -34,7 +34,7 @@ function handler(type, word) {
       }
     };
     xhr.onerror = function (e) {
-      alert(“ajax failed” + xhr.statusText);
+      alert(" ajax failed" + xhr.statusText);
     };
     xhr.send(null);
     alert("js日志：ajax后面的直接代码也可以执行");
