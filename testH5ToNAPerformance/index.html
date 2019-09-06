@@ -21,7 +21,8 @@
         }
         function testSchemaHaveTime()
         {
-            document.location.href="testH5ToNAPerformance://test";
+            time = new Date().getTime();
+            document.location.href="testH5ToNAPerformance://test?time="+time;
         }
         </script>
 <ul>
