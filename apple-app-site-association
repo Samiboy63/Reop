@@ -1,16 +1,6 @@
 {
  "appclips": {
         "apps": [ "DB72DNMJ5Q.com.liujunqi.testappclip.searchclip" ]
-    },
-  "applinks": {
-    "apps": [],
-    "details": 
-    [
-      {
-        "appID": "DB72DNMJ5Q.cn.loveofyanglin.Universal-Links",
-        "paths" : ["*"]
-      }
-    ]
-  }
+    }
 
 }
